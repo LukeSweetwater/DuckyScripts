@@ -1,0 +1,24 @@
+REM Open Notepad
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 500
+
+REM Retrieve hardware information
+STRING systeminfo > "%USERPROFILE%\Desktop\Hardware_Info.txt"
+ENTER
+DELAY 500
+
+REM Save and close Notepad
+ALT f
+DELAY 100
+STRING s
+DELAY 100
+STRING Hardware_Info.txt
+DELAY 100
+ENTER
+DELAY 100
+ALT f
+DELAY 100
+STRING x
