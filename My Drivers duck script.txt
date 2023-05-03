@@ -1,0 +1,36 @@
+REM_BLOCK
+		DESCRIPTION
+				A script that can be used to find all of the drivers installed on your Windows machine
+		
+		PROCESSES USED
+				Command Prompt
+				
+END_REM
+
+DELAY 1000
+
+GUI r
+
+STRING cmd
+
+ENTER
+
+STRING driverquery /FO list /v | clip
+
+ENTER
+
+DEALY 10000
+
+GUI r
+
+STRING notepad
+
+ENTER
+
+CTRL v
+
+CTRL SHIFT s
+
+STRING Windows_Machine_drivers.txt
+
+ALT F4

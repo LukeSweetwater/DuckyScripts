@@ -1,0 +1,36 @@
+REM_BLOCK
+	DESCRIPTION
+		A basic script to run to speed up your computer by cleaning up disk
+		
+	PROCESSES USED
+		Disk Cleanup 
+		
+END_REM
+
+DELAY 1000
+
+GUI r
+
+STRING cleanmgr
+
+ENTER
+
+ENTER
+
+DOWNARROW
+
+DOWNARROW
+
+SPACE 
+
+SPACE
+
+SPACE
+
+SPACE
+
+SPACE
+
+ENTER
+
+
